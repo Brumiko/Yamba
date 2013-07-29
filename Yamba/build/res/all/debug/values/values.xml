@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
+    <string-array name="locProviderKeys">
+        <item>NONE</item>
+        <item>gps</item>
+        <item>network</item>
+    </string-array>
+    <string-array name="locProviderValues">
+        <item>None, please.</item>
+        <item>GPS (watch battery!)</item>
+        <item>Mobile network will do.</item>
+    </string-array>
+    <string-array name="locRefreshIntervalKeys">
+        <item>0</item>
+        <item>60000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+    </string-array>
+    <string-array name="locRefreshIntervalValues">
+        <item>Never</item>
+        <item>One minute (DEV)</item>
+        <item>Fifteen minutes</item>
+        <item>Half hour</item>
+        <item>An hour</item>
+        <item>Half day</item>
+        <item>Day</item>
+    </string-array>
+    <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/colors.xml -->
+    <color name="FireBrick">#B22222</color>
+    <color name="YambaTextArea">#6009</color>
+    <color name="YambaTransparentDark">#9000</color>
+    <color name="YambaTransparentLight">#cfff</color>
+    <color name="Yellow">#FFFF00</color>
+    <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/dimens.xml -->
+    <dimen name="yamba_button_text_size">20sp</dimen>
+    <dimen name="yamba_margin">10dp</dimen>
+    <dimen name="yamba_title_text_size">30sp</dimen>
+    <dimen name="yamba_widget_pading">5dp</dimen>
+    <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
+    <string name="apiRoot">API Root</string>
+    <string name="apiRootSummary">URL of your service\'s root API</string>
+    <string name="appName">Yamba with Android Studio</string>
+    <string name="locationHint">Provide your location?</string>
+    <string name="locationProvider">Location provider</string>
+    <string name="locationRefresh">Refresh interval</string>
+    <string name="locationRefreshHint">Location refresh interval.</string>
+    <string name="msgAllDataPurged">All data have been purged.</string>
+    <string name="msgEnterStatus">Please enter your status.</string>
+    <string name="msgNotificationMessage">You\'ve got %d new tweet(s)!</string>
+    <string name="msgNotificationTitle">New Yamba tweets</string>
+    <string name="msgRefreshInterval">Please set refresh interval.</string>
+    <string name="msgUsernamePassword">Please set your username and password.</string>
+    <string name="password">Password</string>
+    <string name="passwordHint">Please set your password.</string>
+    <string name="purgeData">Purge data</string>
+    <string name="refresh">Refresh</string>
+    <string name="serviceStart">Start service</string>
+    <string name="serviceStop">Stop service</string>
+    <string name="serviceToggle">Toggle service</string>
+    <string name="settings">Settings</string>
+    <string name="startCharCount">000</string>
+    <string name="status">Status</string>
+    <string name="statusHint">Please enter your 140-character status.</string>
+    <string name="timeline">Timeline</string>
+    <string name="timelineLastUpdate">Last timeline update</string>
+    <string name="timelineTransceiverDescription">Sends and receives timeline notifications.</string>
+    <string name="timelineTransceiverLabel">Timeline transceiver</string>
+    <string name="update">Update</string>
+    <string name="username">Username</string>
+    <string name="usernameHint">Please set your username.</string>
+    <string name="yambaWidgetStatus">Status</string>
+    <string name="yambaWidgetTitle">Yamba Widget</string>
+    <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

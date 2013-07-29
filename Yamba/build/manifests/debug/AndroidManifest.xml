@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="hr.koris.yamba">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="hr.koris.yamba.TIMELINE_TRANSCEIVER"/>
+    <permission android:description="@string/timelineTransceiverDescription" android:label="@string/timelineTransceiverLabel" android:name="hr.koris.yamba.TIMELINE_TRANSCEIVER" android:permissionGroup="android.permission-group.PERSONAL_INFO" android:protectionLevel="normal"/>
+    <!--
+    <permission android:name="hr.koris.yamba.SEND_TIMELINE_NOTIFICATIONS"
+                android:label="@string/sendTimelineNotificationsLabel"
+                android:description="@string/sendTimelineNotificationsDescription"
+                android:permissionGroup="android.permission-group.PERSONAL-INFO"
+                android:protectionLevel="normal" />
+    <permission android:name="hr.koris.yamba.RECEIVE_TIMELINE_NOTIFICATIONS"
+                android:label="@string/receiveTimelineNotificationsLabel"
+                android:description="@string/receiveTimelineNotificationsDescription"
+                android:permissionGroup="android.permission-group.PERSONAL-INFO"
+                android:protectionLevel="normal" />
+    <uses-permission android:name="hr.koris.yamba.SEND_TIMELINE_NOTIFICATIONS" />
+    <uses-permission android:name="hr.koris.yamba.RECEIVE_TIMELINE_NOTIFICATIONS" />
+    -->
+    <application android:allowBackup="true" android:icon="@drawable/yamba_icon" android:label="@string/appName" android:name="hr.koris.yamba.YambaApplication">
+        <activity android:label="@string/timeline" android:name="hr.koris.yamba.TimelineActivity" android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/status" android:name="hr.koris.yamba.StatusActivity"/>
+        <activity android:label="@string/settings" android:name="hr.koris.yamba.SettingsActivity"/>
+        <activity android:name="hr.koris.yamba.BaseActivity"/>
+        <!-- Za razliku od Gargentine knjige, čini se da android:permission u kasnijim SDK-ovima
+             treba biti dodan u manifestu uz odgovarajuće aktivnosti i(li) servise -->
+        <service android:name="hr.koris.yamba.UpdaterService" android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER"/>
+        <service android:name="hr.koris.yamba.RefreshService" android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER"/>
+        <receiver android:name="hr.koris.yamba.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="hr.koris.yamba.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/yambaWidgetTitle" android:name="hr.koris.yamba.YambaWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="hr.koris.yamba.NEW_TWEETS"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/yamba_widget_info"/>
+        </receiver>
+        <provider android:authorities="hr.koris.yamba.StatusProvider" android:name="hr.koris.yamba.StatusProvider"/>
+    </application>
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="username"
+                        android:title="@string/username"
+                        android:summary="@string/usernameHint" />
+    <EditTextPreference android:key="password"
+                        android:title="@string/password"
+                        android:summary="@string/passwordHint"
+                        android:password="true" />
+    <EditTextPreference android:key="apiRoot"
+                        android:title="@string/apiRoot"
+                        android:summary="@string/apiRootSummary"  />
+    <ListPreference android:key="locProvider"
+                    android:entries="@array/locProviderValues"
+                    android:entryValues="@array/locProviderKeys"
+                    android:title="@string/locationProvider"
+                    android:summary="@string/locationHint" />
+    <ListPreference android:key="locRefresh"
+                    android:entries="@array/locRefreshIntervalValues"
+                    android:entryValues="@array/locRefreshIntervalKeys"
+                    android:title="@string/locationRefresh"
+                    android:summary="@string/locationRefreshHint" />
+</PreferenceScreen>

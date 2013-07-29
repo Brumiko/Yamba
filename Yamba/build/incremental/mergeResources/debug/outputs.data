@@ -1,0 +1,16 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1375051817000 1754 30cff5a5fb4f6cd81e7c5b56e018ef84583339fc /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/layout/activity_status.xml
+1375051817000 163694 039233d179145bfa8dd4abcd6e75cee98cb7cfd0 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/drawable/steampunk_background.jpg
+1375051818000 244 2226d67b35ccf1228acc7a346082818cc7777d47 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/values-sw720dp-land/values.xml
+1375051818000 2444 690ce8fbfef832d09b8738a9b9e1b126843b4b2f /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/drawable/yamba_icon.png
+1375051817000 897 6eb4ba722a7da6d90df99f953655ce9dea769328 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/layout/yamba_widget.xml
+1375051817000 1083 26a0b335f3ed40deeac3e8cc213a032babe1f60f /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/menu/menu.xml
+1375051817000 1453 fbafe18ab586d0c02ed2d3eedfda319a14289a1f /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/layout/row_timeline.xml
+1375051817000 1406 687902c4342726dad2d14953b863b306f473cccf /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/xml/prefs.xml
+1375051818000 4216 f1351dd8f265b1cffd4092a594c5520a708b4429 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/drawable-mdpi/yamba_icon.png
+1375051817000 415 fc0ff3391c7e0afe3acb7142b476565a4934578b /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/xml/yamba_widget_info.xml
+1375051817000 928 c920c9f320de1d78ef0cb48e3aaebca424b9c64f /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/layout/activity_timeline.xml
+1375051817000 4400 616a3e1dd6f5e709470555f7011fd38812a884d8 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/values/values.xml
+1375051817000 5904 a6a9fdb8eb79741a8a25d301ab4e880d2e3a4702 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/build/res/all/debug/drawable-hdpi/yamba_icon.png

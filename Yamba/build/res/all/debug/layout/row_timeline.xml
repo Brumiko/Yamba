@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Slashdot"
+                android:id="@+id/lblUser"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="10 minutes ago"
+                android:id="@+id/lblCreatedAt"
+                android:layout_weight="1"
+                android:layout_gravity="right"
+                android:textStyle="italic"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Android rules supreme! Qe pasa? BTW, moja žena je nabolja na svijetu."
+            android:id="@+id/lblStatus"/>
+</LinearLayout><!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/layout/row_timeline.xml -->

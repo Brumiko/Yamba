@@ -1,0 +1,20 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1374130438000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values-sw720dp-land/dimens.xml
+1374592008000 1346 20e1a79db2499471cb201c02c8c7fbdaece5f1b9 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/layout/row_timeline.xml
+1323384919000 6118 b5f8a51d972b542b74faa5cf84a1a38baf28b336 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/drawable-hdpi/yamba_icon.png
+1375026529000 6413 953b2de21aa08cdb28b2e7b83e3f063d79b9f532 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/colors.xml
+1375025454000 790 10f39121c52926bfbb44b0a85570628885c4e31f /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/layout/yamba_widget.xml
+1375025184000 299 9076638e88935637cf581f1b8644756118bfd8dd /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/dimens.xml
+1374514317000 816 25c7efbc62553f3e0da148d4fc3e656f98c5ab33 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/layout/activity_timeline.xml
+1375048007000 3501 155656985054cf336ec831e3fdb63ed754584cc1 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml
+1374847095000 306 730838aa99d1ddab2dbec195c21aa6b68e134167 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/xml/yamba_widget_info.xml
+1374138282000 163694 039233d179145bfa8dd4abcd6e75cee98cb7cfd0 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/drawable/steampunk_background.jpg
+1323384919000 2623 2886971ca0a9e583f14e529a4a7da8de7995769d /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/drawable/yamba_icon.png
+1374130438000 674 c78f92856947cb5742edaa3b94df76b0823dbbe7 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/styles.xml
+1374940900000 1309 cf26519de38a9c64ec3dc2e6a3c01e407d84f493 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/xml/prefs.xml
+1374565343000 1644 e305b33034db443431ae402301d5f15db333ed96 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/layout/activity_status.xml
+1323384919000 4403 d1b6be55a432d28824f355731b5f3172eed6f14c /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/drawable-mdpi/yamba_icon.png
+1374130438000 181 84de2797380184d8b39af6f829afb092fb956173 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values-sw600dp/dimens.xml
+1375044851000 986 5a787e3620ef12e650285cecbe1635b0ccadb113 /home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/menu/menu.xml

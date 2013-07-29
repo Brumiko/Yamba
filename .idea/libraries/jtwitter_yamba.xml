@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jtwitter-yamba">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Yamba/libs/jtwitter-yamba.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

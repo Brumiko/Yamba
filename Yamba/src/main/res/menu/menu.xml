@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuStatus"
+          android:title="@string/status"
+          android:icon="@android:drawable/ic_menu_edit" />
+    <item android:id="@+id/mnuTimeline"
+          android:title="@string/timeline"
+          android:icon="@android:drawable/ic_menu_sort_by_size"/>
+    <item android:id="@+id/mnuSettings"
+          android:title="@string/settings"
+          android:icon="@android:drawable/ic_menu_preferences" />
+    <item android:id="@+id/mnuPurge"
+          android:title="@string/purgeData"
+          android:icon="@android:drawable/ic_menu_delete" />
+    <item android:id="@+id/mnuToggleService"
+          android:title="@string/serviceToggle"
+          android:icon="@android:drawable/ic_media_play" />
+    <item android:id="@+id/mnuRefresh"
+          android:title="@string/refresh"
+          android:icon="@android:drawable/ic_menu_rotate" />
+</menu>
