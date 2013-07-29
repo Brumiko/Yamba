@@ -17,18 +17,18 @@ import android.widget.SimpleCursorAdapter.ViewBinder;
 
 public class TimelineActivity extends BaseActivity {
     // Dijagnostika.
-    static final String TAG = TimelineActivity.class.getSimpleName();
+    private static final String TAG = TimelineActivity.class.getSimpleName();
     // Pomoćne varijable.
-    ListView lstTimeline;
-    SimpleCursorAdapter adapter;
-    Cursor cursor;
-    TimelineReceiver receiver;
-    IntentFilter filter;
+    private ListView lstTimeline;
+    private SimpleCursorAdapter adapter;
+    private Cursor cursor;
+    private TimelineReceiver receiver;
+    private IntentFilter filter;
     // Adapterski parametri.
-    static final String[] FROM = { StatusData.C_CREATED_AT, StatusData.C_USER, StatusData.C_TEXT };
-    static final int[] TO = { R.id.lblCreatedAt, R.id.lblUser, R.id.lblStatus };
+    private static final String[] FROM = { StatusData.C_CREATED_AT, StatusData.C_USER, StatusData.C_TEXT };
+    private static final int[] TO = { R.id.lblCreatedAt, R.id.lblUser, R.id.lblStatus };
     // Primopredajni parametri.
-    static final String TIMELINE_TRANSCEIVER = "hr.koris.yamba.TIMELINE_TRANSCEIVER";
+    private static final String TIMELINE_TRANSCEIVER = "hr.koris.yamba.TIMELINE_TRANSCEIVER";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,7 +85,7 @@ public class TimelineActivity extends BaseActivity {
         lstTimeline.setAdapter(adapter);
     }
 
-    static final ViewBinder VIEW_BINDER = new ViewBinder() {
+    private static final ViewBinder VIEW_BINDER = new ViewBinder() {
 
         public boolean setViewValue(View view, Cursor cursor, int columnIndex) {
             if (view.getId() != R.id.lblCreatedAt) {

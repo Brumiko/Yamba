@@ -13,10 +13,10 @@ import android.util.Log;
  */
 public class StatusData {
     // Dijagnostika.
-    static final String TAG = StatusData.class.getSimpleName();
+    private static final String TAG = StatusData.class.getSimpleName();
     // DB.
-    static final String DB_MAME = "timeline.db";
-    static final int DB_VERSION = 1;
+    private static final String DB_MAME = "timeline.db";
+    private static final int DB_VERSION = 1;
     // Tabela.
     static final String TABLE = "timeline";
     static final String C_ID = BaseColumns._ID;
@@ -96,6 +96,7 @@ public class StatusData {
      * @param id of the status we are looking for
      * @return Text of the status
      */
+    /*
     public String getStatusTextById(long id) {
         String statusText = null;
         SQLiteDatabase db = dbHelper.getReadableDatabase();
@@ -113,6 +114,7 @@ public class StatusData {
         }
         return statusText;
     }
+    */
 
     public void close() {
         this.dbHelper.close();

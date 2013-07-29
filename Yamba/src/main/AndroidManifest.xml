@@ -36,7 +36,7 @@
         android:allowBackup="true"
         android:icon="@drawable/yamba_icon"
         android:label="@string/appName" >
-        <activity android:name=".TimelineActivity" android:label="@string/timeline"
+        <activity android:name=".TimelineActivity" android:label="@string/appName"
                   android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

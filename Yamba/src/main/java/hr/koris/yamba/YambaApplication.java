@@ -19,7 +19,7 @@ public class YambaApplication extends Application implements
     // Dijagnostika.
     private static final String TAG = YambaApplication.class.getSimpleName();
     // Pomoćne varijable.
-    public Twitter twitter;
+    private Twitter twitter;
     // Privatne varijable.
     private SharedPreferences prefs;
     public static final String LOCATION_PROVIDER_NONE = "NONE";

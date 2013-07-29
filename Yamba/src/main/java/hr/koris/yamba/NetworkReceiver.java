@@ -10,7 +10,7 @@ import android.util.Log;
  * Created by slavek on 23.07.13..
  */
 public class NetworkReceiver extends BroadcastReceiver {
-    static final String TAG = NetworkReceiver.class.getSimpleName();
+    private static final String TAG = NetworkReceiver.class.getSimpleName();
 
     @Override
     public void onReceive(Context context, Intent intent) {

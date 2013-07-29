@@ -44,7 +44,7 @@
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
     <string name="apiRoot">API Root</string>
     <string name="apiRootSummary">URL of your service\'s root API</string>
-    <string name="appName">Yamba with Android Studio</string>
+    <string name="appName">Yamba</string>
     <string name="locationHint">Provide your location?</string>
     <string name="locationProvider">Location provider</string>
     <string name="locationRefresh">Refresh interval</string>

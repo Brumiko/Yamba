@@ -24,13 +24,13 @@ public class StatusActivity extends BaseActivity implements
     // Dijagnostika.
     private static final String TAG = StatusActivity.class.getSimpleName();
     // GUI varijable.
-    EditText txtStatus;
-    Button btnUpdate;
-    TextView lblCount;
+    private EditText txtStatus;
+    private Button btnUpdate;
+    private TextView lblCount;
     // Lokacijske varijable.
-    LocationManager locationManager;
-    Location location;
-    String locationProvider;
+    private LocationManager locationManager;
+    private Location location;
+    private String locationProvider;
     private static final long LOCATION_MIN_TIME = 3600000; // Jedna vura.
     private static final long LOCATION_MIN_DISTANCE = 1000; // metri
 

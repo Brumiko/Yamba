@@ -11,7 +11,7 @@ import android.util.Log;
  * Created by slavek on 23.07.13..
  */
 public class BootReceiver extends BroadcastReceiver {
-    static final String TAG = BootReceiver.class.getSimpleName();
+    private static final String TAG = BootReceiver.class.getSimpleName();
 
     @Override
     public void onReceive(Context context, Intent intent) {

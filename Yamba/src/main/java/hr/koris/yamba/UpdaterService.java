@@ -14,14 +14,14 @@ import android.util.Log;
  * Created by slavek on 18.07.13..
  */
 public class UpdaterService extends Service {
-    public static final String TAG = UpdaterService.class.getSimpleName();
+    private static final String TAG = UpdaterService.class.getSimpleName();
     //public static final int MIN_DELAY = 60000; // minuta
     private boolean runFlag = false;
     private UpdaterThread updaterThread;
     private long updaterThreadDelay;
     // Primopredajni parametri.
     public static final String NEW_TWEETS_INTENT = "hr.koris.yamba.NEW_TWEETS";
-    public static final String NEW_TWEETS_COUNT = "NEW_TWEETS_COUNT";
+    private static final String NEW_TWEETS_COUNT = "NEW_TWEETS_COUNT";
 
     public IBinder onBind(Intent intent) {
         return null; // Za vezane usluge. Ovdje ne koristimo.
@@ -57,7 +57,7 @@ public class UpdaterService extends Service {
         Log.d(TAG, "onDestroy");
     }
 
-    protected void doNotification(int newTweetsCount) {
+    private void doNotification(int newTweetsCount) {
         Log.d(TAG, "Sending timeline notification...");
         NotificationManager notificationManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
         Notification notification = new Notification(
@@ -80,7 +80,7 @@ public class UpdaterService extends Service {
     }
 
     private class UpdaterThread extends HandlerThread {
-        private long sleepPeriod;
+        private final long sleepPeriod;
         static final String TIMELINE_TRANSCEIVER = "hr.koris.yamba.TIMELINE_TRANSCEIVER";
 
         public UpdaterThread(long delay) {

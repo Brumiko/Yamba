@@ -14,11 +14,11 @@ import android.util.Log;
  * Created by slavek on 28.07.13..
  */
 public class RefreshService extends IntentService {
-    public static final String TAG = RefreshService.class.getSimpleName();
+    private static final String TAG = RefreshService.class.getSimpleName();
     // Primopredajni parametri.
-    public static final String NEW_TWEETS_INTENT = "hr.koris.yamba.NEW_TWEETS";
-    public static final String NEW_TWEETS_COUNT = "NEW_TWEETS_COUNT";
-    static final String TIMELINE_TRANSCEIVER = "hr.koris.yamba.TIMELINE_TRANSCEIVER";
+    private static final String NEW_TWEETS_INTENT = "hr.koris.yamba.NEW_TWEETS";
+    private static final String NEW_TWEETS_COUNT = "NEW_TWEETS_COUNT";
+    private static final String TIMELINE_TRANSCEIVER = "hr.koris.yamba.TIMELINE_TRANSCEIVER";
 
     public RefreshService() {
         super(TAG);

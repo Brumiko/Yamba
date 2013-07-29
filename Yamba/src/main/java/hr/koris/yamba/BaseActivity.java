@@ -25,12 +25,6 @@ public class BaseActivity extends Activity {
         return true;
     }
 
-    /**
-     * Treba DINAMIČKI mijenjati ikonu za start/stop Updater servisa.
-     * @param featureId
-     * @param menu
-     * @return
-     */
     @Override
     public boolean onMenuOpened(int featureId, Menu menu) {
         MenuItem mnuToggleService = menu.findItem(R.id.mnuToggleService);

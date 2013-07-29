@@ -12,13 +12,13 @@ import android.net.Uri;
  */
 public class StatusProvider extends ContentProvider {
     //Dijagnostika.
-    static final String TAG = StatusProvider.class.getSimpleName();
+    private static final String TAG = StatusProvider.class.getSimpleName();
     // URI parametri.
     public static final Uri CONTENT_URI = Uri.parse("content://hr.koris.yamba.StatusProvider");
-    public static final String SINGLE_RECORD_MIME_TYPE = "vnd.android.cursor.item/vnd.koris.yamba.status";
-    public static final String MULTIPLE_RECORD_MIME_TYPE = "vnd.android.cursor.dir/vnd.koris.yamba.mstatus";
+    private static final String SINGLE_RECORD_MIME_TYPE = "vnd.android.cursor.item/vnd.koris.yamba.status";
+    private static final String MULTIPLE_RECORD_MIME_TYPE = "vnd.android.cursor.dir/vnd.koris.yamba.mstatus";
     // Pomoćne varijable.
-    StatusData statusData;
+    private StatusData statusData;
 
     @Override
     public boolean onCreate() {
