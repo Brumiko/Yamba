@@ -35,7 +35,6 @@
     <string name="status">Status</string>
     <string name="statusHint">Please enter your 140-character status.</string>
     <string name="timeline">Timeline</string>
-    <string name="timelineLastUpdate">Last timeline update</string>
     <string name="timelineTransceiverLabel">Timeline transceiver</string>
     <string name="timelineTransceiverDescription">Sends and receives timeline notifications.</string>
     <string name="refresh">Refresh</string>

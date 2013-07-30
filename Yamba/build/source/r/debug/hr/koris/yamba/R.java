@@ -97,14 +97,13 @@ public final class R {
         public static final int status=0x7f080017;
         public static final int statusHint=0x7f080018;
         public static final int timeline=0x7f080019;
-        public static final int timelineLastUpdate=0x7f08001a;
-        public static final int timelineTransceiverDescription=0x7f08001b;
-        public static final int timelineTransceiverLabel=0x7f08001c;
-        public static final int update=0x7f08001d;
-        public static final int username=0x7f08001e;
-        public static final int usernameHint=0x7f08001f;
-        public static final int yambaWidgetStatus=0x7f080020;
-        public static final int yambaWidgetTitle=0x7f080021;
+        public static final int timelineTransceiverDescription=0x7f08001a;
+        public static final int timelineTransceiverLabel=0x7f08001b;
+        public static final int update=0x7f08001c;
+        public static final int username=0x7f08001d;
+        public static final int usernameHint=0x7f08001e;
+        public static final int yambaWidgetStatus=0x7f08001f;
+        public static final int yambaWidgetTitle=0x7f080020;
     }
     public static final class style {
         /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/styles.xml 

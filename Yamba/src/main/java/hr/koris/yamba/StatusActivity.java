@@ -26,7 +26,6 @@ public class StatusActivity extends BaseActivity implements
     private static final String TAG = StatusActivity.class.getSimpleName();
     // GUI varijable.
     private EditText txtStatus;
-    private Button btnUpdate;
     private TextView lblCount;
     // Lokacijske varijable.
     private LocationManager locationManager = null;
@@ -40,10 +39,11 @@ public class StatusActivity extends BaseActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_status);
 
+        Button btnUpdate = (Button)findViewById(R.id.btnUpdate);
+        btnUpdate.setOnClickListener(this);
+
         txtStatus = (EditText)findViewById(R.id.txtStatus);
         txtStatus.addTextChangedListener(this);
-        btnUpdate = (Button)findViewById(R.id.btnUpdate);
-        btnUpdate.setOnClickListener(this);
         lblCount = (TextView)findViewById(R.id.lblCount);
         lblCount.setText(Integer.toString(140));
     }
@@ -57,6 +57,7 @@ public class StatusActivity extends BaseActivity implements
         // Zadnja linija unutar ovog try bloka zadaje probleme:
         // http://stackoverflow.com/questions/9990129/illegalargumentexception-thrown-by-requestlocationupdate
         // https://code.google.com/p/android/issues/detail?id=19857
+        // http://stackoverflow.com/questions/11645273/getting-the-user-geopoint
         // Zato je try blok uveden.
         try {
             if (!YambaApplication.LOCATION_PROVIDER_NONE.equals(locationProvider)) {
