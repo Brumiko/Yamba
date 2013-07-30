@@ -46,12 +46,8 @@
         <activity android:name=".StatusActivity" android:label="@string/status" />
         <activity android:name=".SettingsActivity" android:label="@string/settings"/>
         <activity android:name=".BaseActivity" />
-        <!-- Za razliku od Gargentine knjige, čini se da android:permission u kasnijim SDK-ovima
-             treba biti dodan u manifestu uz odgovarajuće aktivnosti i(li) servise -->
-        <service android:name=".UpdaterService"
-                 android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER" />
-        <service android:name=".RefreshService"
-                 android:permission="hr.koris.yamba.TIMELINE_TRANSCEIVER"/>
+        <service android:name=".UpdaterService" />
+        <service android:name=".RefreshService" />
         <receiver android:name=".BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

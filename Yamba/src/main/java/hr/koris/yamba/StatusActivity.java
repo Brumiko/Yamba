@@ -57,7 +57,7 @@ public class StatusActivity extends BaseActivity implements
         // Zadnja linija unutar ovog try bloka zadaje probleme:
         // http://stackoverflow.com/questions/9990129/illegalargumentexception-thrown-by-requestlocationupdate
         // https://code.google.com/p/android/issues/detail?id=19857
-        // Zato je try blok uveden
+        // Zato je try blok uveden.
         try {
             if (!YambaApplication.LOCATION_PROVIDER_NONE.equals(locationProvider)) {
                 locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
