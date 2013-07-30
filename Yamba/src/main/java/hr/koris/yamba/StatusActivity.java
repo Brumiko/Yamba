@@ -1,5 +1,6 @@
 package hr.koris.yamba;
 
+import android.content.Context;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -28,7 +29,7 @@ public class StatusActivity extends BaseActivity implements
     private Button btnUpdate;
     private TextView lblCount;
     // Lokacijske varijable.
-    private LocationManager locationManager;
+    private LocationManager locationManager = null;
     private Location location;
     private String locationProvider;
     private static final long LOCATION_MIN_TIME = 3600000; // Jedna vura.
@@ -52,12 +53,21 @@ public class StatusActivity extends BaseActivity implements
         super.onResume();
 
         locationProvider = app.getLocationProvider(); // Treba za drugdje!
-        if (!YambaApplication.LOCATION_PROVIDER_NONE.equals(locationProvider)) {
-            locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
-        }
-        if (locationManager != null) {
-            location = locationManager.getLastKnownLocation(locationProvider);
-            locationManager.requestLocationUpdates(locationProvider, LOCATION_MIN_TIME, LOCATION_MIN_DISTANCE, this);
+
+        // Zadnja linija unutar ovog try bloka zadaje probleme:
+        // http://stackoverflow.com/questions/9990129/illegalargumentexception-thrown-by-requestlocationupdate
+        // https://code.google.com/p/android/issues/detail?id=19857
+        // Zato je try blok uveden
+        try {
+            if (!YambaApplication.LOCATION_PROVIDER_NONE.equals(locationProvider)) {
+                locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+            }
+            if (locationManager != null) {
+                location = locationManager.getLastKnownLocation(locationProvider);
+                locationManager.requestLocationUpdates(locationProvider, LOCATION_MIN_TIME, LOCATION_MIN_DISTANCE, this);
+            }
+        } catch (Exception ex) {
+            Toast.makeText(this, R.string.msgLocationRetrievingFailed + " " + ex.getLocalizedMessage(), Toast.LENGTH_LONG).show();
         }
     }
 

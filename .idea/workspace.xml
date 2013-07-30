@@ -40,22 +40,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ecacd3b-b58a-4d24-bbde-0f0c04838e0d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Yamba/build/apk/Yamba-debug-unaligned.apk" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Yamba/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BaseActivity.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BootReceiver.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BootReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/NetworkReceiver.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/NetworkReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/RefreshService.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/RefreshService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/build/source/r/debug/hr/koris/yamba/R.java" afterPath="$PROJECT_DIR$/Yamba/build/source/r/debug/hr/koris/yamba/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusData.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusProvider.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/TimelineActivity.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/TimelineActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/UpdaterService.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/UpdaterService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/Yamba.iml" afterPath="$PROJECT_DIR$/Yamba/Yamba.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaApplication.java" afterPath="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Yamba/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Yamba/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Yamba.iws" />
@@ -74,7 +62,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -111,22 +98,8 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" line="53" class="hr.koris.yamba.StatusActivity" package="hr.koris.yamba">
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BaseActivity.java" line="59" class="hr.koris.yamba.BaseActivity" package="hr.koris.yamba">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
@@ -187,6 +160,21 @@
         <option name="CONDITION" value="&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" line="54" class="hr.koris.yamba.StatusActivity" package="hr.koris.yamba">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
@@ -196,25 +184,7 @@
     <favorites_list name="Yamba" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Yamba/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="47" selection-start="4167" selection-end="4175" vertical-scroll-proportion="0.68421054" vertical-offset="770" max-vertical-offset="1245">
-              <folding>
-                <element signature="e#846#880#0" expanded="true" />
-                <element signature="e#917#957#0" expanded="true" />
-                <element signature="e#2179#2196#0" expanded="true" />
-                <element signature="e#2264#2281#0" expanded="true" />
-                <element signature="e#2644#2660#0" expanded="true" />
-                <element signature="e#2729#2747#0" expanded="true" />
-                <element signature="e#3704#3730#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -277,26 +247,26 @@
         <option value="$PROJECT_DIR$/Yamba/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaWidget.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/res/menu/menu.xml" />
-        <option value="$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Yamba/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BaseActivity.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BootReceiver.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/NetworkReceiver.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/RefreshService.java" />
-        <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusProvider.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/TimelineActivity.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaApplication.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/UpdaterService.java" />
         <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusData.java" />
+        <option value="$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
+    <option name="x" value="45" />
     <option name="y" value="37" />
-    <option name="width" value="1637" />
-    <option name="height" value="1014" />
+    <option name="width" value="1635" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -349,7 +319,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -552,6 +521,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -565,17 +535,16 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
-    <property name="DEBUGGABLE_DEVICE" value="emulator-5554 (Android_4-0)" />
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554 (Android_4-2-2_320-480)" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="DEBUGGABLE_PROCESS" value="hr.koris.yamba" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_4-2-2" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -750,6 +719,11 @@
       <created>1374130438722</created>
       <updated>1374130438722</updated>
     </task>
+    <task id="LOCAL-00001" summary="Postinspekcijski popravci.">
+      <created>1375099617626</created>
+      <updated>1375099617626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -773,48 +747,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="37" width="1637" height="1014" extended-state="6" />
+    <frame x="45" y="37" width="1635" height="1013" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451165" sideWeight="0.6068966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37542087" sideWeight="0.49960908" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25632185" sideWeight="0.50039095" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941361" sideWeight="0.41414142" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37356323" sideWeight="0.49960908" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39310345" sideWeight="0.50031465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2007552" sideWeight="0.23448277" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941361" sideWeight="0.41414142" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2007552" sideWeight="0.23448277" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45791245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45747125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24863175" sideWeight="0.33501685" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2007552" sideWeight="0.6068966" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39310345" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1963499" sideWeight="0.62643677" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32451165" sideWeight="0.6068966" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39310345" sideWeight="0.49968535" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37542087" sideWeight="0.50039095" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941361" sideWeight="0.41414142" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24941361" sideWeight="0.62457913" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -837,8 +811,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -874,7 +848,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Postinspekcijski popravci." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -888,6 +862,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Postinspekcijski popravci." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -899,9 +874,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Yamba/build/source/buildConfig/debug/hr/koris/yamba/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.09453782" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="3" column="19" selection-start="95" selection-end="95" vertical-scroll-proportion="0.09453782" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/BootReceiver.java">
@@ -920,9 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/build/source/r/debug/hr/koris/yamba/Manifest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15756303" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="10" column="30" selection-start="267" selection-end="267" vertical-scroll-proportion="0.15756303" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/NetworkReceiver.java">
@@ -939,15 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="12" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="2490">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="12" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
@@ -959,16 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="12" selection-start="3319" selection-end="3319" vertical-scroll-proportion="0.0" vertical-offset="1059" max-vertical-offset="1560">
           <folding>
-            <element signature="e#1712#1716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="601" selection-end="601" vertical-scroll-proportion="0.33333334" vertical-offset="148" max-vertical-offset="1860">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1712#1716#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -990,44 +943,64 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/res/layout/activity_status.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7185629" vertical-offset="360" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/res/layout/row_timeline.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yamba/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="47" selection-start="4167" selection-end="4175" vertical-scroll-proportion="0.68421054" vertical-offset="770" max-vertical-offset="1245">
+        <state line="67" column="28" selection-start="3872" selection-end="3872" vertical-scroll-proportion="0.52095807" vertical-offset="744" max-vertical-offset="1245">
           <folding>
-            <element signature="e#846#880#0" expanded="true" />
-            <element signature="e#917#957#0" expanded="true" />
-            <element signature="e#2179#2196#0" expanded="true" />
-            <element signature="e#2264#2281#0" expanded="true" />
-            <element signature="e#2644#2660#0" expanded="true" />
-            <element signature="e#2729#2747#0" expanded="true" />
-            <element signature="e#3704#3730#0" expanded="true" />
+            <element signature="e#846#880#0" expanded="false" />
+            <element signature="e#917#957#0" expanded="false" />
+            <element signature="e#2179#2196#0" expanded="false" />
+            <element signature="e#2264#2281#0" expanded="false" />
+            <element signature="e#2644#2660#0" expanded="false" />
+            <element signature="e#2729#2747#0" expanded="false" />
+            <element signature="e#3704#3730#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/YambaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.33204633" vertical-offset="503" max-vertical-offset="1860">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yamba/src/main/java/hr/koris/yamba/StatusActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2612" selection-end="2612" vertical-scroll-proportion="0.33204633" vertical-offset="623" max-vertical-offset="2400">
+          <folding>
+            <element signature="e#2639#2643#0" expanded="true" />
+            <element signature="e#3193#3197#0" expanded="true" />
+            <element signature="e#5102#5139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yamba/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="78" selection-start="744" selection-end="744" vertical-scroll-proportion="0.3764479" vertical-offset="0" max-vertical-offset="1260">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,9 @@
     <string name="locationRefreshHint">Location refresh interval.</string>
     <string name="msgAllDataPurged">All data have been purged.</string>
     <string name="msgEnterStatus">Please enter your status.</string>
+    <string name="msgLocationRetrievingFailed">
+        Can\'t get your location. Status will be posted without location data.
+    </string>
     <string name="msgNotificationMessage">You\'ve got %d new tweet(s)!</string>
     <string name="msgNotificationTitle">New Yamba tweets</string>
     <string name="msgRefreshInterval">Please set refresh interval.</string>
@@ -46,13 +49,13 @@
     <string name="yambaWidgetTitle">Yamba Widget</string>
     <string-array name="locProviderKeys">
         <item>NONE</item>
-        <item>gps</item>
-        <item>network</item>
+        <item>GPS_PROVIDER</item>
+        <item>NETWORK_PROVIDER</item>
     </string-array>
     <string-array name="locProviderValues">
         <item>None, please.</item>
         <item>GPS (watch battery!)</item>
-        <item>Mobile network will do.</item>
+        <item>Mobile or WiFi network</item>
     </string-array>
     <string-array name="locRefreshIntervalKeys">
         <item>0</item>
