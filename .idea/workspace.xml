@@ -39,7 +39,7 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecacd3b-b58a-4d24-bbde-0f0c04838e0d" name="Default" comment="Lint ispravci.">
+    <list default="true" id="6ecacd3b-b58a-4d24-bbde-0f0c04838e0d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Yamba.iws" />
@@ -736,7 +736,11 @@
       <created>1375175527814</created>
       <updated>1375175527814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lint ispravci.">
+      <created>1376504241679</created>
+      <updated>1376504241679</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
