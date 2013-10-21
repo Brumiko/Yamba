@@ -4,8 +4,8 @@
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
     <string-array name="locProviderKeys">
         <item>NONE</item>
-        <item>GPS_PROVIDER</item>
-        <item>NETWORK_PROVIDER</item>
+        <item>gps</item>
+        <item>network</item>
     </string-array>
     <string-array name="locProviderValues">
         <item>None, please.</item>
