@@ -9,8 +9,6 @@ package hr.koris.yamba;
 
 public final class R {
     public static final class array {
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml 
-         */
         public static final int locProviderKeys=0x7f050000;
         public static final int locProviderValues=0x7f050001;
         public static final int locRefreshIntervalKeys=0x7f050002;
@@ -19,8 +17,6 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/colors.xml 
-         */
         public static final int FireBrick=0x7f060000;
         public static final int YambaTextArea=0x7f060001;
         public static final int YambaTransparentDark=0x7f060002;
@@ -28,11 +24,7 @@ public final class R {
         public static final int Yellow=0x7f060004;
     }
     public static final class dimen {
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values-sw720dp-land/dimens.xml 
-         */
         public static final int activity_horizontal_margin=0x7f070004;
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/dimens.xml 
-         */
         public static final int yamba_button_text_size=0x7f070000;
         public static final int yamba_margin=0x7f070001;
         public static final int yamba_title_text_size=0x7f070002;
@@ -69,8 +61,6 @@ public final class R {
         public static final int menu=0x7f0a0000;
     }
     public static final class string {
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml 
-         */
         public static final int apiRoot=0x7f080000;
         public static final int apiRootSummary=0x7f080001;
         public static final int appName=0x7f080002;
@@ -106,8 +96,7 @@ public final class R {
         public static final int yambaWidgetTitle=0x7f080020;
     }
     public static final class style {
-        /**  From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/styles.xml 
-
+        /** 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.

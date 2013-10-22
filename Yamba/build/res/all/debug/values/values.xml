@@ -2,6 +2,8 @@
 <resources>
 
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
+    <eat-comment />
+
     <string-array name="locProviderKeys">
         <item>NONE</item>
         <item>gps</item>
@@ -31,17 +33,23 @@
         <item>Day</item>
     </string-array>
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/colors.xml -->
+    <eat-comment />
+
     <color name="FireBrick">#B22222</color>
     <color name="YambaTextArea">#6009</color>
     <color name="YambaTransparentDark">#9000</color>
     <color name="YambaTransparentLight">#cfff</color>
     <color name="Yellow">#FFFF00</color>
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
     <dimen name="yamba_button_text_size">20sp</dimen>
     <dimen name="yamba_margin">10dp</dimen>
     <dimen name="yamba_title_text_size">30sp</dimen>
     <dimen name="yamba_widget_pading">5dp</dimen>
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/strings.xml -->
+    <eat-comment />
+
     <string name="apiRoot">API Root</string>
     <string name="apiRootSummary">URL of your service\'s root API</string>
     <string name="appName">Yamba</string>
@@ -76,6 +84,8 @@
     <string name="yambaWidgetStatus">Status</string>
     <string name="yambaWidgetTitle">Yamba Widget</string>
     <!-- From: file:/home/slavek/AndroidStudioProjects/YambaProj/Yamba/src/main/res/values/styles.xml -->
+    <eat-comment />
+
     <style name="AppBaseTheme" parent="android:Theme">
         <!--
             Theme customizations available in newer API levels can go in
